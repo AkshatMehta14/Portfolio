@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0d0f1a">
+    <meta name="description" content="Akshat Mehta — student, builder, and AI/animal ethics advocate. USACO Gold, Cornell Ithaca coding competition 2nd place. Apps: GitaQuote, VoiceCoachAI. Dreams2Code founder. CS Club, TSA, FPS, Civic Leaders of America Chair Governor.">
+    <title>Akshat Mehta — Builder • Competitor • Advocate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Sora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%2300e6a8'/><text x='50' y='60' font-size='58' text-anchor='middle' fill='black' font-family='Arial'>A</text></svg>">
+  </head>
+  <body>
+    <div class="backdrop">
+      <div class="blob b1" aria-hidden="true"></div>
+      <div class="blob b2" aria-hidden="true"></div>
+      <div class="noise" aria-hidden="true"></div>
+    </div>
+
+    <header class="site-header" data-parallax="0.5" role="banner">
+      <a class="logo" href="#hero" aria-label="Go to hero section">AM</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-controls="primary-nav" aria-expanded="false">☰</button>
+      <nav class="site-nav" id="primary-nav" role="navigation" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#animals">Animals</a>
+        <a href="#civicleaders">Civic Leaders</a>
+        <a href="#fps">Future Problem Solving</a>
+        <a href="#compprog">Competitive</a>
+        <a href="#apps">Apps & Projects</a>
+      </nav>
+      <div class="progress" aria-hidden="true"><span></span></div>
+    </header>
+
+    <main role="main" style="padding-top: 66px;">
+      <section id="hero" class="hero section" data-parallax="0.2">
+        <div class="hero__content" data-reveal>
+          <h1><span class="accent">Akshat</span> Mehta</h1>
+          <p class="subtitle">Student • Builder • AI/Animal Ethics Advocate</p>
+          <div class="badges" data-reveal>
+            <span class="badge">USACO Gold</span>
+            <span class="badge">Cornell Ithaca Coding — 2nd</span>
+            <a class="badge badge-link" href="https://resources.futureproblemsolving.org/article/fps-world-finals-winners-2025-ic/" target="_blank" rel="noopener">FPS IC — 2nd</a>
+          </div>
+          <div class="cta" data-reveal>
+            <a class="button primary" href="#apps">Explore my apps</a>
+            <a class="button ghost" href="#ethics">Read my paper</a>
+          </div>
+        </div>
+        
+      </section>
+
+      <section id="about" class="section two-col">
+        <div class="content" data-reveal>
+          <h2>Who I am</h2>
+          <p>
+            I'm Akshat — I love building thoughtful software, competing in programming
+            contests, and advocating for humane, responsible AI. I believe technology
+            should uplift both people and animals.
+          </p>
+          <p>
+            Outside of code, I tinker on passion projects, mentor peers, and explore
+            ways technology can create real community impact.
+          </p>
+          <p>
+            This site highlights a few areas I care about — animals, civic leadership & debate,
+            Future Problem Solving, competitive programming, and the apps I've built.
+          </p>
+        </div>
+        <div class="media" data-reveal>
+          <figure class="image-card">
+            <img src="assets/images/profile.jpg" alt="Akshat Mehta profile photo" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </section>
+
+      <section id="animals" class="section">
+        <header class="section-header" data-reveal>
+          <h2>Animals</h2>
+          <p>Animals teach empathy and responsibility — they inspire my work and values.</p>
+          <p>
+            Caring for my pet chicken Buffy sparked my interest in humane technology and ethics.
+            I’ve led community efforts with shelters and advocacy to improve animal welfare.
+          </p>
+          <p>
+            I co-authored a paper introducing <strong>AnimalHarmBench (AHB)</strong>, a benchmark for risks of animal harm in
+            LLM-generated text. AHB includes 1,850 curated Reddit questions and 2,500 synthetic questions across 50 animal categories
+            and 50 ethical scenarios, evaluated with an LLM-as-a-judge framework and debiasing. We find significant differences across
+            models, categories, and scenarios, and outline future directions for technical research.
+          </p>
+          <div class="paper-links">
+            <a class="button primary" href="https://arxiv.org/abs/2503.04804" target="_blank" rel="noopener">Read on arXiv</a>
+            <a class="button" href="https://dl.acm.org/profile/99661638164/publications?Role=author" target="_blank" rel="noopener">ACM profile</a>
+          </div>
+        </header>
+        <div class="collage-grid overlap" data-reveal>
+          <figure class="image-card o1 tilt">
+            <img src="assets/images/buffy.jpg" alt="Close-up portrait of Buffy the chicken" loading="lazy" decoding="async">
+            <figcaption>Buffy the chicken</figcaption>
+          </figure>
+          <figure class="image-card o2 tilt">
+            <img src="assets/images/coop.jpg" alt="Buffy at the coop entrance" loading="lazy" decoding="async">
+            <figcaption>Coop days</figcaption>
+          </figure>
+          <figure class="image-card o3 tilt">
+            <img src="assets/images/PublishedPaper.png" alt="Published paper cover: AnimalHarmBench (AHB)" loading="lazy" decoding="async">
+            <figcaption>Published research</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="compprog" class="section">
+        <header class="section-header" data-reveal>
+          <h2>Competitive Programming</h2>
+          <p>USACO, Cornell Coding Competition, and a love for elegant algorithms.</p>
+          <p>
+            I practice regularly, write up solutions, and mentor teammates — pursuing clarity,
+            correctness, and performance in every solution.
+          </p>
+        </header>
+        <div class="mosaic-grid" data-reveal>
+          <figure class="image-card m1 tilt">
+            <img class="fit-contain" src="assets/images/UsacoQualification.png" alt="USACO qualification certificate screenshot" loading="lazy" decoding="async">
+            <figcaption>USACO Qualification</figcaption>
+          </figure>
+          <figure class="image-card m2 tilt">
+            <img class="fit-contain" src="assets/images/UsacoDivisionSettings.png" alt="USACO division settings page showing progress" loading="lazy" decoding="async">
+            <figcaption>USACO Division</figcaption>
+          </figure>
+          <figure class="image-card m3 tilt">
+            <img class="fit-contain" src="assets/images/CornellCodingCompeition2nd.png" alt="Cornell coding competition — 2nd place certificate" loading="lazy" decoding="async">
+            <figcaption>Cornell Coding — 2nd</figcaption>
+          </figure>
+          <figure class="image-card m4 tilt">
+            <img class="fit-contain" src="assets/images/CornellCodingCompeitionPoster.png" alt="Cornell coding competition event poster" loading="lazy" decoding="async">
+            <figcaption>Competition Poster</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="apps" class="section">
+        <header class="section-header" data-reveal>
+          <h2>Apps & Projects</h2>
+          <p>Passion projects that blend code, design, and impact.</p>
+          <p>
+            I build tools that help people learn, reflect, and improve daily — from iOS widgets
+            to safety apps and community projects.
+          </p>
+        </header>
+        <div class="media-cards" data-reveal>
+          <article class="media-card tilt">
+            <div class="media-card__media">
+              <video class="video-frame" src="assets/images/GitaQuoteAppDemo.MOV" controls playsinline preload="metadata" poster="assets/images/GitaQuoteLogo.PNG"></video>
+            </div>
+            <div class="media-card__body">
+              <h3>GitaQuote — App Demo</h3>
+              <p>Daily Bhagavad Gita quotes, meditation timer, and audio player.</p>
+            </div>
+          </article>
+          <article class="media-card tilt">
+            <div class="media-card__media">
+              <video class="video-frame" src="assets/images/GitaQuoteHomescreenWidget.MOV" controls playsinline preload="metadata" poster="assets/images/GitaQuoteLogo.PNG"></video>
+            </div>
+            <div class="media-card__body">
+              <h3>GitaQuote — Widget</h3>
+              <p>iOS homescreen widget showing daily wisdom at a glance.</p>
+            </div>
+          </article>
+          <article class="media-card tilt">
+            <div class="media-card__media">
+              <img class="fit-contain" src="assets/images/GitaQuoteLogo.PNG" alt="GitaQuote lotus logo on orange gradient" loading="lazy" decoding="async">
+            </div>
+            <div class="media-card__body">
+              <h3>Branding</h3>
+              <p>Icon and visual identity for GitaQuote.</p>
+            </div>
+          </article>
+          <article class="media-card tilt">
+            <div class="media-card__media">
+              <img class="fit-contain" src="assets/images/SuperSonicSnailsWhitelist.png" alt="Supersonic Snails NFT whitelist graphic" loading="lazy" decoding="async">
+            </div>
+            <div class="media-card__body">
+              <h3>Supersonic Snails</h3>
+              <p>NFT project supporting endangered species awareness.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="fps" class="section">
+        <header class="section-header" data-reveal>
+          <h2>Future Problem Solving</h2>
+          <p>International recognition and lessons in research, foresight, and strategy.</p>
+          <p>
+            Our team tackled complex global issues through structured research and ideation,
+            culminating in a 2nd‑place finish at the International Conference.
+          </p>
+        </header>
+        <div class="fps-grid" data-reveal>
+          <figure class="image-card f1 tilt">
+            <img class="fit-contain" src="assets/images/FPS2ndOnStage.JPG" alt="FPS International — Akshat on stage holding 2nd place banner" loading="lazy" decoding="async">
+            <figcaption>International — 2nd place</figcaption>
+          </figure>
+          <figure class="image-card f2 tilt">
+            <img class="fit-contain" src="assets/images/FPS2ndPlaque.png" alt="Close-up of FPS 2nd place plaque" loading="lazy" decoding="async">
+            <figcaption>Plaque & memories</figcaption>
+          </figure>
+        </div>
+        <div class="card__actions" data-reveal>
+          <a class="button" href="https://resources.futureproblemsolving.org/article/fps-world-finals-winners-2025-ic/" target="_blank" rel="noopener">See official results</a>
+        </div>
+      </section>
+
+      <section id="civicleaders" class="section">
+        <header class="section-header" data-reveal>
+          <h2>Civic Leaders of America / Debate</h2>
+          <p>Leadership, debate, and public speaking across conferences and events.</p>
+          <p>
+            As Chair Governor, I coordinated multi‑region events, coached delegates, and led
+            initiatives that strengthened chapter engagement and outreach.
+          </p>
+        </header>
+        <div class="strip-scroll" data-reveal>
+          <figure class="image-card tilt">
+            <img src="assets/images/GovGavel.jpg" alt="Akshat holding governor gavel at conference" loading="lazy" decoding="async">
+            <figcaption>Chair Governor</figcaption>
+          </figure>
+          <figure class="image-card tilt">
+            <img src="assets/images/CLAGavel.png" alt="Civic Leaders of America gavel award" loading="lazy" decoding="async">
+            <figcaption>CLA Award</figcaption>
+          </figure>
+          <figure class="image-card tilt">
+            <img src="assets/images/LotsOfGavels.png" alt="Collection of debate gavels on desk" loading="lazy" decoding="async">
+            <figcaption>Gavels</figcaption>
+          </figure>
+          <figure class="image-card tilt">
+            <img src="assets/images/TagTeamGavel.jpg" alt="Best Speaker tag-team gavel" loading="lazy" decoding="async">
+            <figcaption>Best Speaker</figcaption>
+          </figure>
+          <figure class="image-card tilt">
+            <img src="assets/images/pmunc.jpg" alt="PMUNC debate conference hall" loading="lazy" decoding="async">
+            <figcaption>PMUNC</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <button class="to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+      
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-inner">
+        <p>© <span id="year"></span> Akshat Mehta</p>
+        <div class="footer-links" aria-label="Footer links">
+          <a href="#hero">Back to top</a>
+          <a href="mailto:akshat@example.com" aria-label="Send email">Email</a>
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub profile">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn profile">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
